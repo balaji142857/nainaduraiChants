@@ -2,8 +2,8 @@ package com.krishnan.balaji.config;
 
 import java.util.Properties;
 
-import javax.persistence.EntityManagerFactory;
-import javax.sql.DataSource;
+/*import javax.persistence.EntityManagerFactory;
+import javax.sql.DataSource;*/
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,27 +12,27 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+/*import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.PlatformTransactionManager;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.transaction.annotation.EnableTransactionManagement;*/
 
 @Configuration
-@ComponentScan(basePackages = { "com.krishnan.balaji.config",
-		"com.krishnan.balaji.service" })
-@EnableJpaRepositories("com.krishnan.balaji.repos")
-@PropertySource(value = { "classpath:/datasource.properties",
+@ComponentScan(basePackages = { "com.krishnan.balaji.config"})
+		//"com.krishnan.balaji.service" })
+//@EnableJpaRepositories("com.krishnan.balaji.repos")
+/*@PropertySource(value = { "classpath:/datasource.properties",
 		"classpath:hibernate.properties" })
-@EnableTransactionManagement()
+@EnableTransactionManagement()*/
 public class RootConfig {
 
 	@Autowired
 	Environment env;
 
-	@Bean(name = "dataSource")
+	/*@Bean(name = "dataSource")
 	public DataSource dataSource() {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
 		ds.setDriverClassName(env.getProperty("driverClassName"));
@@ -76,6 +76,6 @@ public class RootConfig {
 	@Bean
 	public SessionFactory sessionFactory(EntityManagerFactory emf){
 		return emf.unwrap(SessionFactory.class);
-	}
+	}*/
 
 }

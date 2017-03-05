@@ -20,8 +20,8 @@ import com.krishnan.balaji.model.validation.EmployeeFormValidator;
 @ComponentScan(basePackages = { "com.krishnan.balaji.web","com.krishnan.balaji.model.validation" })
 public class WebConfig extends WebMvcConfigurerAdapter {
 
-	@Autowired
-	RoleFormatter roleFormatter;
+/*	@Autowired
+	RoleFormatter roleFormatter;*/
 
 	@Override
 	public void configureViewResolvers(ViewResolverRegistry registry) {
@@ -40,7 +40,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 		//registry.addInterceptor(osivInterceptor);
 	}
 
-	@Override
+/*	@Override
 	public void addFormatters(FormatterRegistry formatterRegistry) {
 		formatterRegistry.addFormatter(new DateFormatter("yyyyMMdd"));
 		formatterRegistry.addFormatter(roleFormatter);
@@ -49,7 +49,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 	@Bean(name="employeeValidator")
 	public EmployeeFormValidator validator(){
 		return new EmployeeFormValidator();
-	}
+	}*/
 	
 	@Bean
 	public ResourceBundleMessageSource messageSource(){

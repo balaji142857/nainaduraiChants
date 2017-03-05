@@ -7,11 +7,11 @@ import org.springframework.security.web.context.AbstractSecurityWebApplicationIn
 
 public class SecurityInitializer extends AbstractSecurityWebApplicationInitializer{
 
-	@Override
+	/*@Override
 	protected void afterSpringSecurityFilterChain(ServletContext servletContext) {
 		super.afterSpringSecurityFilterChain(servletContext);
 		insertFilters(servletContext, new OpenEntityManagerInViewFilter());
-	}
+	}*/
 	
 	
 }
