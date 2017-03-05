@@ -22,11 +22,12 @@ import org.springframework.web.servlet.ModelAndView;
 import com.krishnan.balaji.model.Dummy;
 import com.krishnan.balaji.service.DummyService;
 
-@Controller
+//@Controller
 @RequestMapping("/dummy/")
 public class DummyController {
 
-	@Autowired DummyService service;
+	//@Autowired 
+	DummyService service;
 	private static final String viewFolderPrefix="dummy/";
 	private static final String sessionValidatedObject="validatedDummy";
 	private static final String sessionObjectToEdit="sessionObjectToEdit";
