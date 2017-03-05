@@ -10,11 +10,11 @@ import org.springframework.transaction.annotation.Transactional;
 import com.krishnan.balaji.model.User;
 import com.krishnan.balaji.repos.UserRepository;
 
-@Service
-@Transactional("tranactionManager")
+/*@Service
+@Transactional("tranactionManager")*/
 public class UserInfoServiceImpl implements UserInfoService {
 
-	@Autowired
+	//@Autowired
 	UserRepository repo;
 
 	@Override

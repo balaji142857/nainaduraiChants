@@ -15,7 +15,7 @@ import com.krishnan.balaji.model.Role;
 import com.krishnan.balaji.model.User;
 import com.krishnan.balaji.service.RoleService;
 
-@Controller
+//@Controller
 @RequestMapping("/roles")
 public class RolesController {
 

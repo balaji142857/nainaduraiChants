@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import com.krishnan.balaji.model.Dummy;
 
-@Repository
+//@Repository
 public interface DummyRepository extends CrudRepository<Dummy, Serializable>{
 
 }

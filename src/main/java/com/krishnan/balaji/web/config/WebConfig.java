@@ -17,7 +17,7 @@ import com.krishnan.balaji.model.validation.EmployeeFormValidator;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = { "com.krishnan.balaji.web","com.krishnan.balaji.model.validation" })
+@ComponentScan(basePackages = { "com.krishnan.balaji.web"})//,"com.krishnan.balaji.model.validation" })
 public class WebConfig extends WebMvcConfigurerAdapter {
 
 /*	@Autowired

@@ -11,11 +11,12 @@ import com.krishnan.balaji.repos.RoleRepository;
 //import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 
-@Service
-@Transactional("transactionManager")
+/*@Service
+@Transactional("transactionManager")*/
 public class RoleServiceImpl implements RoleService{
 
-	@Autowired RoleRepository repo;
+	//@Autowired 
+	RoleRepository repo;
 
 	@Override
 	public Role create(Role role) {

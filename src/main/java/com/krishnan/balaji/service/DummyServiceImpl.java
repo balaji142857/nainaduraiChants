@@ -8,11 +8,11 @@ import org.springframework.transaction.annotation.Transactional;
 import com.krishnan.balaji.model.Dummy;
 import com.krishnan.balaji.repos.DummyRepository;
 
-@Service
-@Transactional("transactionManager")
+/*@Service
+@Transactional("transactionManager")*/
 public class DummyServiceImpl implements DummyService {
 
-	@Autowired
+	//@Autowired
 	DummyRepository repo;
 
 	@Override

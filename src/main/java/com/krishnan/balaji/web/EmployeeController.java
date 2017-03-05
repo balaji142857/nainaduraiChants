@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.krishnan.balaji.model.Employee;
 
-@Controller
+//@Controller
 public class EmployeeController {
 
 	private static final Logger logger = LoggerFactory

@@ -18,7 +18,7 @@ import com.krishnan.balaji.model.User;
 import com.krishnan.balaji.service.RoleService;
 import com.krishnan.balaji.service.UserInfoService;
 
-@Controller
+//@Controller
 @RequestMapping("/users")
 public class UserController {
 
