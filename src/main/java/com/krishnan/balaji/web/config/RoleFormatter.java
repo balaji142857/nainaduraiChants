@@ -9,10 +9,11 @@ import org.springframework.stereotype.Component;
 
 import com.krishnan.balaji.model.Role;
 import com.krishnan.balaji.service.RoleService;
-@Component
+//@Component
 public class RoleFormatter implements Formatter<Role>{
 
-	@Autowired RoleService service;
+	//@Autowired 
+	RoleService service;
 	
 	@Override
 	public String print(Role arg0, Locale arg1) {
