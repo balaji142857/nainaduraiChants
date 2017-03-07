@@ -3,18 +3,14 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <head>
-<title>महागणपतिसहस्रनामस्तोत्रम् </title>
+<title>महागणपति सहस्रनामम् </title>
 <link href='<c:url value="/resources/css/style.css"/>' rel="stylesheet">
 </head>
 <body>
 <c:import url="/resources/template/header.jsp"></c:import>
 <div class="container" id="view_content">
-<div id="fontlinks">
-		<a href="#" id="incfont" class="button buttonfont">A+</a>
-		<a href="#" id="decfont" class="button buttonfont">A-</a>
-</div>
 
-
+<h1>महागणपति सहस्रनामम्</h1>
 कथं नाम्नां सहस्रं तं गणेश उपदिष्टवान् ।
 शिवदं तन्ममाचक्ष्व लोकानुग्रहतत्पर ॥ १॥
 

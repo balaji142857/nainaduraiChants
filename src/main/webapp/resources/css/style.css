@@ -17,3 +17,8 @@ body {
 .form-group{
 	padding-bottom: 2px;
 }
+#view_content{
+	font-size: 30px;
+	font-family: Lora,'Times New Roman',serif;
+	#font-style: italic;
+}

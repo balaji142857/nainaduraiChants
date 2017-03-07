@@ -43,5 +43,12 @@ public class SlokaController {
 		ModelAndView mav = new ModelAndView("misc/"+name);
 		return mav;
 	}
+	
+	@RequestMapping(value="/home",method=RequestMethod.GET)
+	public ModelAndView showHome(){
+		ModelAndView mav = new ModelAndView("home");
+		return mav;
+	}
+	
 
 }
