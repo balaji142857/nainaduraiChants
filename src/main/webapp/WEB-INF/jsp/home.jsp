@@ -304,6 +304,17 @@
 						<a href='<c:url value="/misc/bhaja_govindam"/>' class="btn btn-warning">भजगोविन्दं</a>
 					</h4>
 				</div>
+			</div>
+			
+			<div class="card"
+				style="width: 16rem; display: inline-block; margin: 5px">
+				<img class="card-img-top" width="255px" height="320px"
+					src='<c:url value="/resources/images/shirram.jpg"/>'
+					alt="Card image cap">				<div class="card-block">
+					<h4 class="card-title">
+						<a href='<c:url value="/misc/bhaja_govindam"/>' class="btn btn-warning">श्रीरामरक्षास्तोत्र</a>
+					</h4>
+				</div>
 			</div>															
 			
 

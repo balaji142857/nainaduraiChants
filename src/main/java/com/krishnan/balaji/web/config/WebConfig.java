@@ -58,9 +58,9 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 		resource.setBasename("message");
 		return resource;
 	}
-	/*@Override
+	@Override
 	  public void addViewControllers(ViewControllerRegistry registry) {
 	    registry.addViewController("/").setViewName("home");
-	  }*/
+	  }
 	
 }
